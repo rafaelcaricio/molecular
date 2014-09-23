@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <title>Molecular Example 1</title>
+  </head>
+  <body>
+
+    <template id="grad-templ">
+      <label ml-bind="name" ml-style="{color: color}"></label>
+      <label class="dwa" ml-bind="name" ml-show="name == 'show it!'"></label>
+      <div>
+        <input type="text" ml-model="color">
+        <input type="text" ml-model="name">
+      </div>
+
+      <!-- not working yet -->
+      <ul ml-forEach="{items: layers, template: '#layer-templ'}"></ul>
+    </template>
+
+    <template id="layer-templ">
+      <li>
+        <label ml-bind="title"></label>
+        <small ml-bind="content"></small>
+      </li>
+    </template>
+
+    <div id="cont">
+    </div>
+
+    <script src="./build/examples.web.js"></script>
+  </body>
+</html>

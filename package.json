@@ -1,0 +1,35 @@
+{
+  "name": "molecular",
+  "version": "0.0.1",
+  "description": "Light-weight bidirectional data binding rendering for HTML5 templates.",
+  "main": "lib/molecular.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rafaelcaricio/molecular.git"
+  },
+  "keywords": [
+    "molecular",
+    "templates",
+    "rendering",
+    "data-binding",
+    "html"
+  ],
+  "author": "Rafael Caricio",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rafaelcaricio/molecular/issues"
+  },
+  "homepage": "https://github.com/rafaelcaricio/molecular",
+  "devDependencies": {
+    "browserify": "^5.12.0",
+    "del": "^0.1.3",
+    "gulp": "^3.8.8",
+    "vinyl-source-stream": "^1.0.0"
+  }
+}
